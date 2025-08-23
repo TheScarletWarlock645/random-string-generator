@@ -13,8 +13,8 @@ def genStr(length, charSet):
 def printStr(length, charSet):
     global generatedString
     generatedString = genStr(length, charSet)
-    string = Label(root, bg="white", fg="black", text=generatedString)
-    string.pack()
+    stringOutput = Label(root, bg="white", fg="black", text=generatedString)
+    stringOutput.pack()
 
 def sel():
     global charSet
